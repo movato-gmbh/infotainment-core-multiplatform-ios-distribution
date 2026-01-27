@@ -7,7 +7,7 @@
 > [!CAUTION]
 > This repository only exists for the purpose of binary distribution of InfotainmentCore for iOS using the Swift Package Manager.
 >
-> Manual edits are strictly forbidden.
+> Manual edits will be overrriden by the next automatic release.
 
 ## License
 
