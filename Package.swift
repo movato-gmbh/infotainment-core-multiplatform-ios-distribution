@@ -1,19 +1,20 @@
 // swift-tools-version: 5.9
-
 import PackageDescription
 
 let package = Package(
-    name: "infotainment-core-multiplatform",
+    name: "MultiplatformInfotainment",
+    platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "InfotainmentMultiplatform",
-            targets: ["InfotainmentMultiplatform"]),
+            name: "MultiplatformInfotainment",
+            targets: ["MultiplatformInfotainment"]
+        )
     ],
     targets: [
         .binaryTarget(
-            name: "InfotainmentMultiplatform",
-            url: "https://github.com/movato-gmbh/infotainment-core-multiplatform-ios-distribution/releases/download/0.0.4/MultiplatformInfotainment.xcframework.zip",
-            checksum: "a3b92f2c7a71776788c738e4efdcf97d685c3f81c6f3f745c90dc6370bda277c"
+            name: "MultiplatformInfotainment",
+            url: "https://github.com/movato-gmbh/infotainment-core-multiplatform-ios-distribution/releases/download/0.0.5/MultiplatformInfotainment.xcframework.zip",
+            checksum: "8b8f112f9132c7ff94bdfa6fe262029ed8427af25ed50a98e3cabc3a5aadb875"
         )
     ]
 )
