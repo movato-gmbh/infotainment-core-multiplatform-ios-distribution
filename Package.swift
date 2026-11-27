@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MultiplatformInfotainment",
-            url: "https://github.com/movato-gmbh/infotainment-core-multiplatform-ios-distribution/releases/download/0.0.100/MultiplatformInfotainment.xcframework.zip",
-            checksum: "d38d63308cd1085b0a29c3a4ae33e934dcae0e48cfcb5d868c2d727b5cf98641"
+            url: "https://github.com/movato-gmbh/infotainment-core-multiplatform-ios-distribution/releases/download/0.0.101/MultiplatformInfotainment.xcframework.zip",
+            checksum: "2be7cd3a4818276385d19fcbc93026b3eb65648456c39ad95bff9180b409c384"
         )
     ]
 )
